@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Karlee's Koffee Company - Menu</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/52d4acc0e4b086fdf73bb33b/1416697926211-04LVDBW0NFATA1FWPVS3/ke17ZwdGBToddI8pDm48kL3VKmwKI3leYB51VJjLFB8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcQ643Xlia2-fGNGmT0Ni4GzSBWYegu4Na6KP29i9RHf4IJOBaNFWew0RIOS0ELFXu/image-asset.png?format=1500w" />
+  	<style type="text/css">
+    #special {
+       color: #D0FAF9; 
+    }
+
+    * {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    #glass {
+      background-color: white;
+    }
+
+    body {
+      background-color: #FBEEFF;
+    }
+
+    .jumbotron {
+      background-color: #579759;
+    }
+
+    #blocked {
+      background-color: black;
+      text-align: center;
+      border-radius: 30%;
+    }
+
+    #goals {
+      background-color: black;
+    }
+
+    #maskedbackground {
+      background-color: #FBEEFF;
+    }
+
+    #spring {
+      font: 900 4em/1, sans-serif;
+      font-weight: 900;
+      text-align: center;
+      text-shadow: .5vw .5vw .1vw rgba(248,248,248,.075);
+      padding-bottom: 10px;
+      -webkit-animation: color-change 7s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+       0% { color: yellow; }
+       50% { color: white; }
+       100% { color: yellow; }
+    }
+      
+    #yessim {
+      font: 900 4em/1, sans-serif;
+      font-weight: 900;
+      background: url("https://media3.giphy.com/media/xUOxeZR9gmFzbH8FRS/giphy.gif") repeat-y;
+      text-shadow: .5vw .5vw .1vw rgba(115,127,126,.2);
+      background-repeat: repeat;
+      padding-bottom: 10px;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: aitf 80s linear infinite;
+      -webkit-transform: translate3d(0,0,0);
+      -webkit-backface-visibility: hidden;
+      }
+    }
+
+    @-webkit-keyframes aitf {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+
+    #meow {
+      font-weight: 900;
+      padding-bottom: 10px;
+      color: #FB4264;
+      text-shadow: 0 0 3vw #F40A35;
+      animation: neon 2s ease infinite;
+    }
+    
+    @keyframes neon {
+       0%, 
+       100% {
+        text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914; 
+        color: #FED128; 
+        }
+        50% {
+          text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280; 
+          color: #28D7FE;
+        } 
+       }
+  }
+
+  	#fix {
+  		color: gray;
+  	}
+
+    #fix:link {
+      color: gray;
+    }
+
+     #fix:visited {
+      color: gray;
+    }
+
+    #fix:hover {
+      color: black;
+      text-decoration: none;
+    }
+
+    #small {
+      padding-top: 15px;
+      height: 80%;
+      width: 100%;
+    }
+
+    #smaller {
+      padding-top: 15px;
+      height: 110%;
+      width: 110%;
+    }
+
+    #open1 {
+      display: block;
+      background-color: #FBEEFF;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: 678px) {
+    #open1 {
+    display: none;
+    padding-left: 27.5px;
+    }
+  }
+
+    @media screen and (min-width: 678.0001px) {
+    #open1 {
+    display: block !important;
+    }
+  }
+
+   #open2 {
+      display: block;
+      background-color: #FBEEFF;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: 678px) {
+    #open2 {
+    display: none;
+    padding-left: 27.5px;
+    }
+  }
+
+    @media screen and (min-width: 678.0001px) {
+    #open2 {
+    display: block !important;
+    }
+  }
+
+  #open3 {
+      display: block;
+      background-color: #FBEEFF;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: 678px) {
+    #open3 {
+    display: none;
+    padding-left: 27.5px;
+    }
+  }
+
+  @media screen and (min-width: 678.0001px) {
+    #open3 {
+    display: block !important;
+    }
+  }
+
+  #open4 {
+      display: block;
+      background-color: #FBEEFF;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: 678px) {
+    #open4 {
+    display: none;
+    padding-left: 27.5px;
+    }
+  }
+
+   @media screen and (min-width: 678.0001px) {
+    #open4 {
+    display: block !important;
+    }
+  }
+
+  #open5 {
+      display: block;
+      background-color: #FBEEFF;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: 678px) {
+    #open5 {
+    display: none;
+    padding-left: 27.5px;
+    }
+  }
+
+   @media screen and (min-width: 678.0001px) {
+    #open5 {
+    display: block !important;
+    }
+  }
+
+  #pushdown {
+    margin-top: 200px;
+  }
+
+  @media screen and (max-width: 678px) {
+    #pushdown {
+    margin-top: 75px;
+    }
+  }
+
+  @media screen and (max-width: 678px) {
+    #pushcenter {
+    margin-left: 25vw;
+    margin-bottom: 5px;
+    margin-right: 25vw;
+    text-align: center;
+    }
+  }
+
+  #pinky {
+    background-color: #6a0dad;
+    color: #fff;
+    border-color: #6a0dad;
+    border-radius: 50%;
+  }
+
+  #pinky:hover {
+    background-color: #460873;
+  }
+
+  #coolio {
+    border-radius: 50%;
+  }
+
+  #rborder {
+    border-right: 1.5px solid white;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  #rborder:hover {
+    opacity: 75%;
+  }
+
+  #slash {
+    text-decoration: none;
+  }
+
+  h4 {
+    color: white;
+  }
+
+  h4:hover {
+    color: #F9F9F9;
+  }
+
+  @media screen and (max-width: 678px) {
+    #rborder {
+    border: none;
+    text-align: center;
+    margin-top: 25px;
+    }
+  }
+
+  #finally {
+    margin-top: 25px;
+    text-align: left;
+    color: white;
+  }
+
+   @media screen and (max-width: 678px) {
+    #finally {
+    text-align: center;
+    }
+  }
+
+  #snow {
+    color: white;
+  }
+
+  #resizing {
+    width: 50%;
+    height: 50%;
+  }
+
+  #extraresizing {
+    width: 7.5%;
+    height: 7.5%;
+    margin-left: 50%;
+  }
+
+#magician:link {
+    color: white;
+    margin-left: -230%
+  }
+
+  #magician:visited {
+    color: white;
+    margin-left: -230%
+  }
+
+  #magician:hover {
+    color: gray;
+  }
+
+  #locator:hover {
+    opacity: 75%;
+  }
+
+  @media screen and (max-width: 678px) {
+    #closegap {
+    margin-top: -9%;
+    }
+  }
+
+  @media screen and (min-width: 678.0001px) {
+    #shiftone {
+    margin-right: 27.5%;
+    }
+  }
+
+  @media screen and (max-width: 678px) {
+    #smaller {
+    margin-left: -7%;
+    }
+  }
+
+  #moovit {
+  	text-align: center;
+	}
+
+  @media screen and (max-width: 678px) {
+    #snowunderline {
+    border-bottom: 0.25px solid white;
+    }
+  }
+
+  @media screen and (min-width: 678.0001px) {
+    #snowunderline2 {
+    padding-top: 150px;
+    border-bottom: 0.25px solid white;
+    }
+  }
+
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="special" href="Karlee's-Koffee.html">Karlee's Koffee Company</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Karlee's-Koffee-Menu.html">Menu<span class="sr-only">(current)</span></a></li>
+        <li><a href="Karlee's-Koffee-OurStory.html">Our Story</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seasonal Beverages<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.pepperparkcoffee.com/pepper-park-coffee-blog/2017/4/27/spring-favorites-1">Spring Favorites</a></li>
+            <li><a href="https://hipcityveg.com/seasonal-milkshake-calendar/">Drink Calendar</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://www.in-n-out.com/menu/not-so-secret-menu.aspx">Secret Menu</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="locator">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <a id="locator" href="https://www.google.com/maps/place/Ambassador+Hotel/@9.5222951,44.0705685,17z/data=!3m1!4b1!4m8!3m7!1s0x1628c0467087a775:0x6bd5cd1510f1cf44!5m2!4m1!1i2!8m2!3d9.5222951!4d44.0727572"><img id="extraresizing" src="https://cdn.iconscout.com/icon/free/png-512/pin-locate-marker-location-navigation-16-28668.png"></a>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-left" id="magician">
+      <li id="magician"><a id="magician" href="https://www.google.com/maps/place/Ambassador+Hotel/@9.5222951,44.0705685,17z/data=!3m1!4b1!4m8!3m7!1s0x1628c0467087a775:0x6bd5cd1510f1cf44!5m2!4m1!1i2!8m2!3d9.5222951!4d44.0727572">Find a store</a></li>
+      </ul>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li id="closegap"><a href="https://www.netflix.com/so-en/title/81035279">#Socials</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.youtube.com/watch?v=SSk0B0dVq4g">Membership</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YBO_7UezpbY">Gift Cards</a></li>
+            <li><a href="https://www.youtube.com/watch?v=ZeFPlu7bqxw">Free Swag</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://www.youtube.com/watch?v=jYnRBX2Trtk">Join the Family</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div>
+<div>
+<div class="container-fluid">
+<div class="jumbotron">
+<div class="row">
+  <div><h1 id="spring">Menu</h1>
+  <div><h2 id="spring">Karlee's Koffee Company</h2>
+  <div id="moovit"><p id="snow">Enjoy our famous seasonal beverages. From ethically sourced chai lattes, to sinfully seductive strawberry tiramisus, we have a little something for everyone this month: #FebClub!</p></div>
+  <div id="moovit" class="container">
+  <div class="jumbotron" id="blocked">
+  <div class="row">
+  <div><h3 id="snow"><strong>Menu</strong></h3>
+  <p id="snow" class="col-md-4">Latte ------------- 2.50</p>
+  <p id="snow" class="col-md-4">Flat White ------------- 2.50</p>
+  <p id="snow" class="col-md-4">Cappuccino ------------- 2.50</p>
+  <p id="snow" class="col-md-4">Cappuccino ------------- 2.50</p>
+  <p id="snow" class="col-md-4">Long Black ------------- 2.50</p>
+  <p id="snow" class="col-md-4">Short Black ------------- 2.00</p>
+  <div id="snowunderline">
+  <p id="snow" class="col-md-4">Espresso (Single) ---------- 2.00</p>
+  <p id="snow" class="col-md-4">Espresso (Double) ---------- 2.50</p>
+  <p id="snow" class="col-md-4">Macchiato ------------- 2.50</p>
+  </div>
+  <p id="snowunderline2"></p>
+  <p id="snow" class="col-md-4">Breakfast Tea</p>
+  <p id="snow" class="col-md-4">Earl Grey Tea</p>
+  <p id="snow" class="col-md-4">Green Tea</p>
+  <p id="snow" class="col-md-4">Mint Tea</p>
+  <p id="snow" class="col-md-4">Lemon and Ginger Tea</p>
+  <p id="snow" class="col-md-4">Jasmine Tea</p>
+  <p id="snow" class="col-md-6">All Tea Pots ------------- 3.00</p>
+  <p id="snow" class="col-md-6">Takeaway Tea ------------- 1.50</p>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div onclick="fun()" class="col-md-2" class="dropdown">
+  <button id="maskedbackground" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <h5><strong>About Us</strong></h5>
+  </button>
+  <div id="open1" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <p><a id="fix" class="dropdown-item" href="Karlee's-Koffee-OurStory.html">Our Story</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://en.wikipedia.org/wiki/Black_Gold_(2006_film)">Our Coffee</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=lqPuGMgT6yw">Stories and News</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.netflix.com/so-en/title/80108609">Investor Relations</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=GrhSLf0I-HM">Policies and Standards</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=dCANT0nG3bY">Customer Service</a></p>
+  </div>
+</div>
+<div onclick="fun2()" class="col-md-2" class="dropdown">
+  <button id="maskedbackground" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h5><strong>Careers</strong></h5>
+  </button>
+  <div id="open2" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=VVxYOQS6ggk">Culture and Values</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.helpscout.com/images/blog/2019/jun/diversity-inclusion-2019.png">Diversity and Inclusion</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=8V_hCqO6UQs">College Achievement Plan</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://en.wikipedia.org/wiki/Somaliland">Somaliland Careers</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=iXGtx-hroKE">International Careers</a></p>
+  </div>
+</div>
+<div onclick="fun3()" class="col-md-2" class="dropdown">
+  <button id="maskedbackground" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h5><strong>Social Impact</strong></h5>
+  </button>
+  <div id="open3" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <p><a id="fix" class="dropdown-item" href="https://time.com/5318245/coffee-industry-climate-change/">Ethical Sourcing</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=TMrtLsQbaok">Leading in Sustainability</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=n-B_kmAebbQ">Strengthening Communities</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.netflix.com/so-en/title/81090071">Creating Opportunities</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.washingtonpost.com/climate-environment/2019/11/26/bleak-report-un-says-drastic-action-is-only-way-avoid-worst-impacts-climate-change/">National Social Impact Report</a></p>
+  </div>
+</div>
+<div onclick="fun4()" class="col-md-2" class="dropdown">
+  <button id="maskedbackground" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h5><strong>For Business Partners</strong></h5>
+  </button>
+  <div id="open4" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=LVVO8b4vvis">Landlord Support Center</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=OJM8yJTn_I0">Suppliers</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Corporate Gift Card Sales</a></p>
+  </div>
+</div>
+<div onclick="fun5()" class="col-md-2" class="dropdown">
+  <button id="maskedbackground" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h5><strong>Ways to Order</strong></h5>
+  </button>
+  <div id="open5" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <p><a id="fix" class="dropdown-item" href="https://www.wired.com/story/meet-the-immigrants-who-took-on-amazon/">Order on the Web</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=m7FvtO3jqQ4">Download the App</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://en.wikipedia.org/wiki/Grubhub">Delivery</a></p>
+    <p><a id="fix" class="dropdown-item" href="https://www.youtube.com/watch?v=xw9Au9OoN88">Google Assistant</a></p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="jumbotron" id="pushdown">
+<div class="container" class="row">
+  <div id="pushcenter" class="col-md-2"><a href="https://open.spotify.com/playlist/37i9dQZF1DXa1BeMIGX5Du"><button id="coolio" class="btn btn-success btn-lg"><img id="resizing" src="https://i.pinimg.com/originals/09/4e/33/094e33276c5e6b4da287633670c9130a.png"></button></a></div>
+  <div id="pushcenter" class="col-md-2"><a href="https://www.facebook.com/UnitedByBlueWalnutStreet/"><button id="coolio" class="btn btn-primary btn-lg"><img id="resizing" src="FL.png"></button></a></div>
+  <div id="pushcenter" class="col-md-2"><a href="https://www.pinterest.com/lajollamom/coffee/"><button id="coolio" class="btn btn-danger btn-lg"><img id="resizing" src="Pin.png"></button></a></div>
+  <div id="pushcenter" class="col-md-2"><a href="https://www.instagram.com/explore/tags/coffee/top/"><button id="pinky" class="btn btn-lg"><img id="resizing" src="Insta.png"></button></a></div>
+  <div id="pushcenter" class="col-md-2"><a href="https://www.youtube.com/watch?v=VqANgtxKLbM"><button id="coolio" class="btn btn-warning btn-lg"><img id="resizing" src="YT.png"></button></a></div>
+  <div id="pushcenter" class="col-md-2"><a href="https://twitter.com/unitedbyblue?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><button id="coolio" class="btn btn-info btn-lg"><img id="resizing" src="Tweet.png"></button></a></div>
+</div>
+<div class="container" class="row">
+  <div id="pushcenter" class="col-md-3"><a id="slash" href="https://www.starbucks.com/about-us/company-information/online-policies/privacy-policy"><h4 id="rborder"><strong>Privacy Policy</strong></h4></a></div>
+  <div id="pushcenter" class="col-md-3"><a id="slash" href="https://www.starbucks.com/about-us/company-information/online-policies/terms-of-use"><h4 id="rborder"><strong>Terms of Use</strong></h4></a></div>
+  <div id="pushcenter" class="col-md-3"><a id="slash" href="https://globalassets.starbucks.com/assets/A2A072E3411C4A6ABAEB8D6BCF286F43.pdf"><h4 id="rborder"><strong>Supply Chain Act</strong></h4></a></div>
+  <div id="pushcenter" class="col-md-3"><a id="slash" href="https://ideas.starbucks.com/"><h4 id="rborder"><strong>Submit Your Idea</strong></h4></a></div>
+</div>
+<div class="container" class="row">
+<div id="pushcenter" class="col-md-7"><h5 id="finally">© 2020 Karlee's Koffee Company. A Robleh Farah Joint. All rights reserved.</h5></div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+ function fun() {
+  var x =
+  document.getElementById("open1");
+  if (x.style.display === "none") {
+    x.style.display = "block"; 
+  } else {
+    x.style.display = "none";
+   }
+  }
+</script>
+
+<script type="text/javascript">
+ function fun2() {
+  var y =
+  document.getElementById("open2");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+   }
+  }
+</script>
+
+<script type="text/javascript">
+ function fun3() {
+  var z =
+  document.getElementById("open3");
+  if (z.style.display === "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
+   }
+  }
+</script>
+
+<script type="text/javascript">
+ function fun4() {
+  var vee =
+  document.getElementById("open4");
+  if (vee.style.display === "none") {
+    vee.style.display = "block";
+  } else {
+    vee.style.display = "none";
+   }
+  }
+</script>
+
+<script type="text/javascript">
+ function fun5() {
+  var kay =
+  document.getElementById("open5");
+  if (kay.style.display === "none") {
+    kay.style.display = "block";
+  } else {
+    kay.style.display = "none";
+   }
+  }
+</script>
+
+</body>
+</html>
